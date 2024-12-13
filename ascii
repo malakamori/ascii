@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int ascii;
+	cout<<"enter ascii value";
+	cin>>ascii;
+	cout<<"character value ="<<char(ascii)<<endl;
+	char character;
+	cout<<"enter character value";
+	cin>>character;
+	cout<<"ascii value="<<int(character)<<endl;
+		
+}
